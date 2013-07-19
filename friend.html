@@ -1,0 +1,110 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<LINK href="index_files/meizu2011.css" type=text/css rel=stylesheet>
+<LINK href="index_files/home.css" type=text/css rel=stylesheet>
+<LINK href="index_files/common.css" type=text/css rel=stylesheet>
+<title>主页</title>
+</head>
+<style type="text/css">
+body {
+	margin-left:0;
+	margin-top:0;
+	margin-bottom:0;
+	margin-right:0;
+	background-color:#ffffff;
+}
+</style>
+<SCRIPT src="index_files/common.js" type=text/javascript></SCRIPT>
+<script language="javascript" type="text/javascript">
+	function getPic()
+	{
+		var s=new String(location);
+		s=s.slice(s.length-1)-'0';
+		name=s++;
+		name="./file/"+name+".jpg";
+		document.all.food.src=name;
+	}
+	function next()
+	{
+		var s=new String(location);
+		s=s.slice(s.length-1)-'0';
+		if(s<0||s>6)s=0;
+		s=++s%7;
+		var addr=new String(location);
+		addr=addr.substring(0,addr.length-1)+s;
+		location.href=addr;
+	}
+</script>
+<body   onload="getPic();">
+<table border="0" width="80%" cellspacing="0" align="center">
+  <tr height="">
+      <td  align="left" align="center" valign="top" bgcolor="#ffffff" >
+      <div style="height:35px"></div>
+      <div align="center" style=" width:100%">
+    <div align="center" style=" width:30%; border-color:#FC3; border-style:groove;border-width:thin;">
+    <img id="food" width="100%" height="250" /></div></div>
+	<br />
+    <div align="left" style=" width:98%; border-color:#CCC; border-style:groove; border-width:thin;"> 
+    姓名：张三<br />
+    居住地：安徽省<br />
+    人气：501<br />
+    个人简介：<br />
+    1.*&*…………%%&……%￥￥￥%……##*；<br />
+    2.%……R^%F^&^&^&^%%%$^&*%$@@$；<br />
+    3.！#@#￥~%￥&&%￥￥#￥@！%￥……%……￥#；<br />
+    4.%^$%^$#@@$%^^&&*^&&*^&*%^&*%^%%^%$#$@#$%#%^&%%^。
+    </div><br />
+    <div align="left">
+      <button type="button" onclick="next();" class="button"><font class="btn_txt" style=" margin-left:-10px;">Next</font></button>
+    </div>
+      </td>
+    <td  width="100" align="left" bgcolor="#ffffff" valign="top" ><DIV id=infoside>
+        <DIV id=meizu_activity><A title=带梦想回家 
+href="./index.html" target=_self><IMG 
+src="index_files/gohome.png"></A> </DIV>
+        <DIV id=meizu_menu>
+          <DIV id=meizu_forumlist>
+            <dl>
+              <dt><a href="javascript:;" onclick="toggle_collapse('sub_2');"><span style="float:right;padding:10px 10px 0 0;"><img id="sub_2_img" src="index_files/menu_collapsed_no.gif"></span>美食菜谱</a></dt>
+              <dd id="sub_2">
+                <ul>
+                  <li><a href="food.html?1" target="_self">香辣烤翅<span class="mzmenu_num"> (￥20)</span></a></li>
+                  <li><a href="food.html?2" target="_self">香河肉饼<span class="mzmenu_num"> (￥15)</span></a></li>
+                  <li><a href="food.html?3" target="_self">火腿鸡蛋<span class="mzmenu_num"> (￥18.8)</span></a></li>
+                  <li><a href="food.html?0" target="_self">更多...<span class="mzmenu_num"> (150个)</span></a></li>
+                </ul>
+              </dd>
+            </dl>
+            <div class="catlistbottom"></div>
+           <dl><dt><a href="javascript:;" onclick="toggle_collapse('sub_3');"><span style="float:right;padding:10px 10px 0 0;"><img id="sub_3_img" src="index_files/menu_collapsed_no.gif"></span>生活健康</a></dt>
+	<dd id="sub_3"><ul>
+	<li><a href="health.html" target="_self" >不用服药的减肥常...<span class="mzmenu_num"> (838)</span></a></li>
+	<li><a href="health.html" target="_self">父母应把爱控制在...<span class="mzmenu_num"> (752)</span></a></li>
+	<li><a href="health.html" target="_self">夏季防蚊驱蚊灭蚊...<span class="mzmenu_num"> (545)</span></a></li>
+	<li><a href="health.html" target="_self">更多...<span class="mzmenu_num"> (0个)</span></a></li>
+	</ul></dd></dl>
+	<div class="catlistbottom"></div>
+	
+	<dl><dt><a href="javascript:;" onclick="toggle_collapse('sub_4');"><span style="float:right;padding:10px 10px 0 0;"><img id="sub_4_img" src="index_files/menu_collapsed_no.gif"></span>交友平台</a></dt>
+	<dd id="sub_4"><ul>
+	<li><a href="friend.html?1" target="_self">张三（安徽）<span class="mzmenu_num"> (501)</span></a></li>
+	<li><a href="friend.html?2" target="_self">李四（四川） <span class="mzmenu_num"> (456)</span></a></li>
+	<li><a href="friend.html?3" target="_self">王二（河北） <span class="mzmenu_num"> (251)</span></a></li>
+	<li><a href="friend.html?0" target="_self">更多...<span class="mzmenu_num"> (9个)</span></a></li>
+	</ul></dd></dl>
+	<div class="catlistbottom"></div>
+          </DIV>
+        </DIV>
+      </DIV></td>
+  </tr>
+  <tr >
+    <td align="center"  colspan="2">
+    <div align="left" style=" width:100%; height:100px; border-color:#9F6; border-style:groove;border-width:thin;">
+    </div>
+    </td>
+  </tr>
+</table>
+</body>
+</html>

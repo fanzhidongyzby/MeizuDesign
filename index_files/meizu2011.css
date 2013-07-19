@@ -1,0 +1,668 @@
+/*
+common.css Offical Style for Discuz!(R)
+URL: http://www.discuz.net
+(C) 2001-2007 Comsenz Inc.
+<style type="text/css">
+*/
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Common Style ~~~~ */
+* { word-wrap: break-word; }
+body{background:url(../../images/meizu2010/bg_2011.jpg) #EEF5FB top center no-repeat; text-align: center; }
+body, td, input, textarea, select, button { color: #000; font: 12.8px/1.6em Microsoft YaHei,Arial,Helvetica,sans-serif,Simsun; }
+body, ul, dl, dd, p, h1, h2, h3, h4, h5, h6, form, fieldset { margin: 0; padding: 0; font-size:12.8px;}
+h1, h2, h3, h4, h5, h6 { font-size: 14.8px; }
+#menu li, .popupmenu_popup li, #announcement li, .portalbox li, .tabs li, .postmessage fieldset li, .side li, .formbox li, .notice li { list-style: none; }
+a { color:#333333; text-decoration: none; }
+	a:hover { text-decoration: underline; }
+	a img { border: none; }
+em, cite, strong, th { font-style: normal; font-weight: normal;font-size: 12.8px; }
+table { empty-cells: show; border-collapse: collapse; }
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ meizu header 2010-12-04 ~~~~ */
+#Mheader{width:100%; margin:0px;min-width:958px;height:55px;padding-top:10px;}
+#w_header {
+    height: 55px;
+    padding-top: 10px;
+    width: 100%;
+}
+
+#logo {
+    background: url("../../images/meizu2010/mzlogo.jpg") no-repeat scroll -6px 9px transparent;
+    float: left;
+    height: 34px;
+    width: 122px;
+}
+
+#logo a{width:122px;height:34px;display:block;outline:none;}
+
+.global{float:right;padding-right:28px;background:url(../../images/meizu2010/global_2011.png)  right -2px no-repeat;height: 25px;margin-top:15px;font-family: "Microsoft Yahei",Arial,Helvetica,sans-serif,"";font-size: 12px;color: #333;*padding-top:1px;}
+.global a{font-size:12px}
+.global_FF{float:right;padding-right:28px;background:url(../../images/meizu2010/global_2011.png)  right -2px no-repeat;height:25px; line-height:18px;margin-top:15px;font-family: "Microsoft Yahei",Arial,Helvetica,sans-serif,"";font-size: 12px;color: #333;}
+.global_FF a{font-size:12px}
+.global_IE6{float:right;padding-right:28px;background:url(../../images/meizu2010/global_2011.png)  right -2px no-repeat;height: 25px; padding-top:1px;margin-top:15px;font-family: "Microsoft Yahei",Arial,Helvetica,sans-serif,"";font-size: 12px;color: #333;}
+.global_IE6 a{font-size:12px}
+.global_Opera{float:right;padding-right:28px;background:url(../../images/meizu2010/global_2011.png)  right -2px no-repeat;height: 25px; line-height:17px;margin-top:15px;font-family: "Microsoft Yahei",Arial,Helvetica,sans-serif,"";font-size: 12px;color: #333;}
+
+
+#home_pic{width:960px;height:530px;background:url(../../images/default/home/home1.png)  no-repeat;margin:0 auto;position:relative;}
+#home_pic .h_nav{width:410px;height:117px;position:absolute;right:0px;bottom:0px;}
+#home_pic .h_nav li{width:110px;height:88px;float:left;margin-right:20px;}
+#home_pic .h_nav li.selected{background:url(../../images/default/home/nav_bg.png)  no-repeat;}
+#home_pic .h_nav li a{width:110px;height:88px;display:block;}
+#home_pic .h_nav_1{background:url(../../images/default/home/nav1.png) no-repeat;}
+#home_pic .h_nav_2{background:url(../../images/default/home/nav2.png) no-repeat;}
+#home_pic .h_nav_3{background:url(../../images/default/home/nav3.png) no-repeat;}
+
+/*www: www-head.page*/
+.m_top{width:960px;margin:0 auto;}
+.c_menu{float:left;}
+.c_menu li{float:left;list-style:none;}
+.c_menu li a{display:block;width:122px;height:46px;background:url(../../images/meizu2010/mhead_nav_2011.jpg); position:relative;outline:none;}
+.c_menu li a.r_M9{ background-position:-1px 0px;}
+.c_menu li a.r_buy{background-position:-123px 0;}
+.c_menu li a.r_tech{background-position:-245px 0;}
+.c_menu li a.r_bbs{background-position:-368px 0;}
+.c_menu li a.r_M9:hover{background-position:-1px -100px;}
+.c_menu li a.r_buy:hover{background-position:-123px -100px;}
+.c_menu li a.r_tech:hover{background-position:-245px -100px;}
+.c_menu li a.r_bbs:hover{background-position:-368px -100px;}
+.c_menu li a.r_M9_selected{background-position:-1px -51px;}
+.c_menu li a.r_buy_selected{background-position:-123px -51px;}
+.c_menu li a.r_tech_selected{background-position:-245px -51px;}
+.c_menu li a.r_bbs_selected{background-position:-368px -51px;}
+.c_menu li a.r_M9_selected .hideLeft{background-color:rgb(208,229,248);display:block;height:40px;width:1px;overflow:hidden; position:absolute; left:-1px;}
+.c_menu li a.r_buy_selected .hideLeft{background-color:rgb(208,229,248);display:block;height:40px;width:1px;overflow:hidden; position:absolute; left:-1px;}
+.c_menu li a.r_tech_selected .hideLeft{background-color:rgb(208,229,248);display:block;height:40px;width:1px;overflow:hidden; position:absolute; left:-1px;}
+.c_menu li a.r_bbs_selected .hideLeft{background-color:rgb(208,229,248);display:block;height:40px;width:1px;overflow:hidden; position:absolute; left:-1px;}
+
+.site_navdiv{background:url(../../images/default/site_bar.png) -1px -1px  no-repeat;height:95px;position:absolute;width:92px; display:none;font-family: "Microsoft Yahei",Arial,Helvetica,sans-serif,"ËÎÌו";font-size: 12px;color: #333;}
+.site_navdiv li{font-size:13px;margin:0 auto;line-height:28px;list-style:none;}
+.site_navdiv  a{display:block; line-height:28px;margin-left:3px;padding-left:3px;width:90px;}
+.site_navdiv a div{border-bottom:1px solid #F1F1F1; width:75px;cursor:pointer;text-align: center;}
+.site_navdiv  a:hover {background:url(../../images/default/site_bar.png) -4px -97px no-repeat; text-decoration:none;}
+.site_navdiv  a:hover div{border-bottom:1px solid white;}
+
+
+.bbs_head { background:url(../../images/meizu2010/bbs_bg_2010.png) 0 0 no-repeat; width:958px; height:89px; overflow:hidden; margin-top:8px; }
+.bbs_head #headstatus{float:right;padding-right:38px;overflow:hidden;width:600px;text-align:right;padding-top:5px;font-size:12px}
+.bbs_head .h_left{float: left;line-height: 40px;overflow: hidden;padding-left: 13px;padding-top: 10px;width: 620px;}
+.bbs_head .h_left li{float:left;padding-left:15px;list-style: none;}
+.bbs_head .h_left li a{color:#555555}
+.bbs_head .h_right{float:right;padding-right:33px; padding-top:16px; line-height:40px; color:#555555; display:block; overflow:hidden;}
+
+#global_search {width:178px; height:27px; overflow:hidden; line-height: 27px;}
+#global_search_input_bg { float: left;font-size:12px;width:138px;height:28px;padding: 3px;background:url(../../images/meizu2010/bbs_bg_2010.png) 0 -92px no-repeat;}
+#global_search_input {border:0;width:132px;height:18px;line-height:18px;background: transparent;}
+#global_search_submit { float: right;border:0;width:33px;height:28px;background:url(../../images/meizu2010/bbs_bg_2010.png) -145px -92px no-repeat;cursor: pointer;}
+#searchTip {position:absolute; background:#FFFFFF; display:none; border:1px solid #E8E8E8;width:138px; }
+#searchTip li {list-style:none;padding-left:2px;width:138px;height:30px;overflow:hidden }
+
+.bbs_s_portrait{background:url(../../images/meizu2010/bbs_bg_2010.png) 0 -120px no-repeat; height:40px; width:40px; overflow: hidden; float:left;}
+.bbs_s_portrait img{width:34px; height:34px; padding:3px;}
+.bbs_m_portrait{background:url(../../images/meizu2010/bbs_bg_2010.png) -182px -92px no-repeat; height:56px; width:51px; overflow:hidden; padding:3px; float:left;}
+.bbs_m_portrait img{height:48px; width:48px;}
+.bbs_head .h_left span{padding-left:10px;float:left;}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Layout & Block Style ~~~~ */
+
+.wrap { text-align: left; margin: 0 auto;width:958px; overflow:hidden;}
+.notice { font-size: 14px; border: 1px solid #EDEDCE; background: #FFFFF2 url(../../images/meizu/notice.gif) no-repeat 1em 0.7em; padding: 0.5em 1em 0.3em 3em; margin-bottom: 10px;color: #090;line-height:1.3em;}
+.videoact { width: 445px; font-size: 14px; border: 1px solid #CAD9EA; background: #E8F3FD url(../../images/meizu/videoact.gif) no-repeat 1em 0.5em; padding: 0.5em 1em 0.3em 3em; margin-bottom: 10px; color: #090; }
+.message { margin: 3em 10em 5em !important; }
+	.message h1 { line-height: 26px; border: 1px solid; background: #FFF url("../../images/meizu/portalbox_bg.gif"); background-repeat: repeat-x; background-position: 0 0; border-color: #FFF #FFF #CAD9EA #FFF; padding-left: 1em; margin-bottom: 1em; }
+	.message p { margin: 1.5em 1em; }
+	.message a { color: #069; }
+#header { width: 100%; overflow: hidden; }
+	#header h2 { float: left; padding: 5px 0; }
+#footer { color: #666; padding: 12px 0; clear:both; font-size:12px;}#footer a{margin:0 5px;font-size:12px;}#footer a:link,#footer a:visited{color: #007DCC;font-size:12px;}
+.footline {background-color: #B2B2B2;height: 8px;margin-left: 0;vertical-align: middle;width: 1px;}
+	#footlinks {  margin-top:25px; text-align: center; }
+	#footer img { border: medium none;}
+	#copyright, #debuginfo { font: 0.83em/1.5em Verdana, Arial, Helvetica, sans-serif; }
+		#copyright strong, #copyright em { font-weight: bold; }
+			#copyright strong a { color: #0954A6; }
+			#copyright em { color: #FF9D25; }
+			#debuginfo { color: #999; }
+	.scrolltop { cursor: pointer; }
+#menu { margin-top:4px; height: 57px; background: url(../../images/meizu/menu_b.jpg) repeat-x scroll 0 4px }
+	#menu ul { float: right; height:57px;line-height:57px;padding-right:10px;background:url(../../images/meizu/avataonline_bg_right.jpg) no-repeat right 4px}
+		#menu li { float: left; }
+			#menu li a { text-decoration: none; display: block; color: #333; padding: 0 8px;}
+				#menu li.hover, #menu li.current {background:url(../../images/meizu/menu_li_current_bg.jpg) repeat-x right 4px}
+					#menu li.current { font-weight: bold; background:url(../../images/meizu/menu_li_current_bg.jpg) repeat-x right 4px}
+					#menu li.hover a {  background:url(../../images/meizu/menu_li_current_bg.jpg) repeat-x right 4px}
+					#menu li.current a {  background:url(../../images/meizu/menu_li_current_bg.jpg) repeat-x right 4px}
+			#menu cite a { font-weight: bold;  background:url(../../images/meizu/menu_li_current_bg.jpg) repeat-x right 4px }
+	.frameswitch { float: left; height: 30px; line-height: 30px; padding-left: 10px; }
+		#menu a.frameoff, #menu a.frameon { float: left; border: none; padding-left: 16px; margin-left: 0; background: no-repeat 0 50%; }
+			#menu a.frameoff { background-image: url(../../images/meizu/frame_off.gif); }
+			#menu a.frameon { background-image: url(../../images/meizu/frame_on.gif); }
+	#foruminfo { background:#FFFFFF url(../../images/meizu2010/foruminfo_head.png) 0 0  no-repeat ;}
+	#nav { height:33px; line-height:33px;}
+	#userinfo, #foruminfo #nav { height:33px; line-height:33px;padding-left: 15px; background: url("../../images/meizu2010/bbs_bg_2010.png") no-repeat 0 -320px #FFFFFF }
+	
+	#smallnav { height:33px; line-height:33px;padding-left: 15px; background: url("../../images/meizu2010/bbs_bg_2010.png") no-repeat 0 -360px #FFFFFF }
+	#smallnav p { color: #333; font-size: 14.8px; }
+	#smallnav p a{ font-weight:bold; color: #069;  }
+
+	#forumstats, #headsearch { float: right; text-align: right; padding: 5px 15px; }
+	#foruminfo p { margin: 0; }
+		#foruminfo a{ color: #069; }
+		#foruminfo em { color: #000; }
+		#foruminfo cite { font-weight: bold; }
+			#foruminfo strong a { font-weight: bold; color: #000; }
+		#userinfo #nav { float: none; padding: 0; }
+			#nav a { font-weight: bold; color: #069;font-size:14.8px }
+#announcement { border-top: 1px dashed #CAD9EA; line-height: 36px; height: 36px; overflow: hidden; }
+	#announcement div { border: 1px solid #FFF; padding: 0 10px; line-height: 35px !important; height: 36px; overflow-y: hidden;}
+		#announcement li { float: left; margin-right: 20px; padding-left: 10px; background: url(../../images/meizu/arrow_right.gif) no-repeat 0 50%; white-space: nowrap; }
+			#announcement li em { font-size: 0.83em; margin-left: 5px; color: #666; }
+.portalbox { width: 100%; background: #CAD9EA; border-collapse: separate; }
+	.portalbox td { padding: 10px; vertical-align: top; background: #FFF; }
+		.portalbox h3 { margin: 0 0 5px; font-size: 1em; white-space: nowrap; }
+		.portalbox strong { font-weight: bold; margin-top: 4px;}
+		.portalbox em { color: #999; }
+			.portalbox em a { color: #999; }
+			.portalbox cite a { color: #069; }
+		#hottags a { white-space: nowrap; margin-right: 0.5em; }
+		#hottags h3 { clear:both; }
+.headactions {line-height: 1em; padding: 10px 10px 0 0; float:right }
+	.headactions img { vertical-align: middle; cursor: pointer; padding: 0 5px; }
+		.mainbox .headactions { color:#4F4F4F;height:30px;line-height:20px;text-align: right;}
+		.mainbox .headactions a, .mainbox .headactions span, .mainbox .headactions strong { padding-right: 10px; margin-right: 0px; color: #4F4F4F; }
+			.mainbox .headactions strong { font-weight: bold; }
+#threadtypesmenu_menu ul li a {background:transparent ;}
+
+.mzheadactions { float: left; line-height: 1em; padding:10px 0 0 10px; }
+	.mzheadactions img { vertical-align: middle; cursor: pointer; padding: 0 5px; }
+		.mainbox .mzheadactions {color:#4F4F4F;height:30px;line-height:20px;}
+		.mainbox .mzheadactions a, .mainbox .mzheadactions span, .mainbox .mzheadactions strong { font-size:13.8px; background: url(../../images/meizu/headactions_line.gif) no-repeat 100% 50%; padding-right: 10px; margin-right: 8px; color: #4F4F4F; }
+			.mainbox .mzheadactions strong { font-weight: bold; color:#006699; background: url(../../images/meizu/headactions_line.gif) no-repeat 100% 50%; }
+
+.pages_btns { clear: both; padding-left:10px; height:45px;overflow: hidden;background:#FFFFFF  repeat-x scroll 0 -51px; border-left: 1px solid #DFDFDF;border-right: 1px solid #DFDFDF; margin:auto ;}
+	.postbtn, .replybtn { float: right; margin:8px 8px 0; }
+		.postbtn {cursor: pointer; }
+	.pages_btns .pages em { width: 70px; }
+.pages, .threadflow { float: left; color: #999;margin-top:10px; }
+	.pages a, .pages strong, .pages em, .pages kbd, #multipage .pages em { float: left; width:43px; font-size:14.8px;color:#555;line-height:25px;  text-align: center;}
+		.pages a:hover { background-color: #FFF; }
+		.pages strong { font-weight: bold; color: #006699; background: #FFF; border:0px #A9E2F9 solid;text-decoration: underline; }
+			.pages a.prev, .pages a.next { width: 40px; font-family: Verdana, Arial, Helvetica, sans-serif; }
+			.pages a.last { width: 60px;}
+		.pages kbd {margin: 0; width: 60px;}
+			* html .pages kbd { padding: 1px 8px; }
+			.pages kbd input { border: 1px solid #CAD9EA; margin-top: 3px !important; * > margin-top: 1px  !important; margin: 1px 4px 0 3px; padding: 0 2px; height: 17px; }
+				.pages kbd>input { margin-bottom: 2px; }
+	.threadflow { margin-right: 5px;}
+.tabs { padding-bottom: 26px; margin-bottom: 15px; background: #E8F3FD; border-top: 1px solid #FFF; border-bottom: 1px solid #CAD9EA; }
+	.tabs li { float: left; line-height: 27px; border-right: 1px solid #CAD9EA; height: 27px; }
+		.tabs li.current { background: #FFF; height: 27px; font-weight: bold; }
+			.tabs li a { float: left; padding: 0 10px; }
+.smileytabs { height: 28px; background: #E8F3FD; position: relative; padding-right: 24px; }
+	.smileytabs span { float: right; width: 24px; height: 24px; margin: 2px 0; position:absolute; right: 0; top: 0; }
+	#smileytypes { white-space: nowrap; padding:0px; height: 27px; overflow-y:hidden; float: left; border: none; margin-top: 1px; }
+	.headertabs { background: #FFF none; margin-bottom: 0;border-left:1px solid #E4E8EB;border-right:1px solid #E4E8EB; }
+		.headertabs li.current { background-color: #E8F3FD; }
+	.sendpm a { color: #090; background: url(../../images/meizu/buddy_sendpm.gif) no-repeat 15px 50%; padding: 0 20px 0 35px !important; }
+#headfilter { border: solid #9DB3C5; border-width: 1px 1px 0; }
+	#headfilter .tabs { border-bottom-color: #FFF; margin-bottom: 0; }
+#footfilter { padding: 10px; he\ight: 44px; height: 24px; line-height: 24px; background: #F7F7F7; border-color: #E8E8E8; font-family: "Microsoft YaHei",Simsun,"Times New Roman"; }
+	#footfilter form { float: right; }
+		#footfilter * { vertical-align: middle; }
+.legend { border:1px solid #E4E8EB; background: #fff; padding: 10px; margin: 10px auto; text-align: left; line-height: 35px; }
+	.legend label { padding: 0 20px; }
+	.legend img { vertical-align: middle; margin-right: 10px; }
+.taglist { padding: 10px 0; overflow: hidden;border-left:1px solid #E4E8EB;border-right:1px solid #E4E8EB;background:#fff  }
+	.taglist li { float: left; display: inline; width: 10em; height: 24px; overflow: hidden; margin: 0 10px; }
+		.taglist li em { font-size: 10px; color: #999; }
+.attriblist * { color: #000; }
+	.attriblist dt { float: left; margin-right: 10px; }
+	.attriblist .name { font-weight: bold; }
+	.attriblist dd a { color: #069;}
+#forumlinks {}
+	#forumlinks td { padding: 5px; color: #999;background:#FFF;border:0}
+	#forumlinks .forumlink_logo { float: right; }
+#online {background:#FFF url(../../images/meizu/meizu_all_bg.jpg) repeat-x right top}
+	#online h4 { font-weight: normal; color: #666; }
+		#online h4 strong { font-weight: bold; }
+	#online dl { padding: 5px; }
+		#onlinelist { background:#fff; border-left:1px solid #E4E8EB;border-right:1px solid #E4E8EB;}
+		#online #legend { padding:5px 15px; font-size:11px;}
+			#online #legend img { margin-bottom: -3px; }
+			#online .headactions a {background:transparent;margin:0;padding:0}
+	#bdayslist { padding: 10px 0 10px 55px; border-top: 1px solid #E8E8E8; background: url(../../images/meizu/bdays_cake.gif) no-repeat 10px 5px; }
+.userlist { border-top: 1px solid #E8E8E8; overflow: hidden; padding:5px 15px; }
+	* html .userlist { height: 1%; }
+	.userlist li { float: left; width:128px; height: 20px; overflow: hidden; }
+		.userlist li img { vertical-align: middle; }
+	#onlinelist .userlist li { height: auto; margin:4px auto ;}
+#recommendlist { }
+	#recommendlist li { float: left; white-space: nowrap; width: 24.9%; overflow: hidden; text-indent: 12px; background: url(../../images/meizu/arrow_right.gif) no-repeat 2px 7px; }
+	#recommendlist.rules li { width: 49%; }
+.recommendrules { padding: 0px;font-size:12.8px;}
+#seccode { cursor: pointer; }
+.autosave { behavior: url(#default#userdata); }
+#menu a.notabs { background: none; }
+.headactions a.notabs { background: none; margin-right: 0px; padding-right: 5px; }
+.absmiddle { vertical-align: middle; }
+.mainbox ins { display: block; text-align: center; text-decoration: none; margin-bottom: 1px; background: #F7F7F7; border-bottom: 1px solid #CAD9EA; line-height: 26px; }
+	ins.logininfo { background: #E8F3FD; padding: 2px 5px; line-height: 22px; color: #666; text-align: left; border: none; }
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Box Style ~~~~ */
+
+/*Main Box*/
+.mainbox { overflow:hidden;}
+	.mainbox h1, .mainbox h3, .mainbox h6 {line-height:40px; height:40px; padding-left: 1em; color: #4F4F4F; background:#E8F3FD }
+		.mainbox h1 a, .mainbox h3 a { color: #4F4F4F; }
+	.mainbox table { width: 100%; background:#fff;border-collapse:separate;}
+		.forumlist table, .threadlist table { border:1px solid #E4E8EB; border-top:0;border-bottom:0; border-collapse: separate; }
+		.mainbox thead th, .mainbox thead td { background: #E6EAEB; padding: 2px 5px; line-height: 22px; color: #666; }
+			.mainbox thead.category th, .mainbox thead.category td { background: #FFF }
+			.mainbox thead.separation th, .mainbox thead.separation td { border-top: 1px solid #CAD9EA; height:10px;line-height:10px}
+		.mainbox tbody th, .mainbox tbody td { border-top: 1px solid #E8E8E8; padding: 5px; }
+			.mainbox tbody cite, .mainbox tbody em { line-height: 1.3em; }
+				.forumlist tbody strong, .threadlist tbody strong , .formbox tbody strong  { color: #090; }
+	/*Tabel Footer: Button Operation*/
+	.footoperation {padding: 5px; border-left:1px solid #E4E8EB;border-right:1px solid #E4E8EB;border-top:1px solid #E4E8EB;}
+		.threadlist .footoperation { padding-left: 51px; }
+		.footoperation * { vertical-align: middle; }
+		.footoperation label { margin-right: 1em; cursor: pointer; }
+		.footoperation button { font-size:12px; line-height: 1em; display: inline; width: 0; overflow: visible; padding: 3px 5px 2px; border: 1px solid #CAD9EA; background: #FFF; color: #069; cursor: pointer; margin-left: 2px; }
+			.footoperation>button { width: auto; }
+	/*Forum & Thread List*/
+	.forumlist tbody th, .forumlist tbody td, .threadlist tbody th, .threadlist tbody td {font-size:14px; color: #666; padding:5px 3px; border-bottom: 1px solid #FFF; background: #fff; }
+		.forumlist tbody th { height: 40px; }
+		.forumlist th, .threadlist th { text-align: left; }
+				.forumlist th { padding-left: 5px !important; }
+					.forumlist h2 em { color: #069; }
+				.forumlist tbody th {}
+					.forumlist tbody th.new {}
+					.moderators a { color: #069; }
+					.moderators a strong { font-weight: bold; color: #069; }
+				.threadlist th label { float: right; }
+				.threadpages { background: url(../../images/meizu/multipage.gif) no-repeat 0 100%; font-size: 11px; margin-left: 5px; white-space: nowrap; }
+					.threadpages a { padding-left: 8px; font-size:12.8px}
+						.threadpages a:hover { text-decoration: underline; }
+				.threadlist th a.new { color: #090; text-transform: uppercase; font-size: 9px; white-space: nowrap; }
+				.threadlist th input { float: left; margin-right: 5px; }
+				.threadlist th em, .threadlist th em a { color: #999; }
+				.threadlist th img.icon { float: left; margin-left: -22px; }
+				.threadlist th img.attach, .threadlist th img.icon { margin-bottom: -3px; }
+				.threadlist .target { float: left; display: block; width: 20px; height: 20px; margin-left: -28px; text-indent: -9999px; overflow: hidden;  }
+					* html .threadlist .target  { margin-left: -14px; margin-right: 5px; }
+	.forumlist tbody tr:hover th, .forumlist tbody tr:hover td, .threadlist tbody tr:hover th, .threadlist tbody tr:hover td { background: #E8F3FD url(../../images/meizu/BG_hover.jpg) repeat-x 0 0;border-bottom:1px solid #BCEDFE;border-top:1px solid #BCEDFE; }
+		.threadlist td.forum { width: 12%; }
+		.forumlist td.lastpost { width: 250px; }
+		.threadlist td.folder { text-align: center; width: 30px; }
+		.threadlist td.icon { text-align: center; padding: 3px 0; width: 16px; }
+		.threadlist td.author { width: 90px; text-align: center; }
+		.threadlist td.lastpost { text-align: right; width:80px; padding-right: 15px; }
+			.threadlist td.lastpost cite a { color: #999; }
+		.forumlist cite, .threadlist cite { display: block; }
+		.threadlist td.author em, .threadlist td.lastpost em { font-size: 0.83em; }
+		label.highlight { width: 40px; margin-right: 30px; }
+		label.highlight, label.highlight input { float: left; }
+		label.highlight em { float: right; width: 16px; height:16px;  }
+		.quickmanage label.highlight { width: 40px; margin: 3px 18px 3px 0; }
+
+		.optionbar { float: left; margin-right: 0.5em; border: 1px solid #CAD9EA; background: #E4E8EB url("../../images/meizu/header_bg.gif"); background-repeat: repeat-x; background-position: 0 100%; height: 12px; }
+			.optionbar div { float: left; border: 1px solid #FFF; height: 10px; overflow: hidden; }
+
+/*Common Box*/
+.box { background: #FFF; border: 1px solid #CAD9EA; padding: 1px; }
+	.box h4 { background: #FFF url("../../images/meizu/portalbox_bg.gif"); background-repeat: repeat-x; background-position: 0 0; line-height: 30px; padding: 0 10px; }
+	.box table { width: 100%; }
+		.box td { border-top: 1px solid #E8E8E8; }
+		.box .box li { list-style: none;}
+	.postattachlist h4, .tradethumblist h4, .pollpanel h4, .specialthread_4 h4, .typeoption h4 { border-top: 1px solid #CAD9EA; }
+	#pmprompt { border-color: #EDEDCE;border-bottom: none; }
+		#pmprompt h4 { background: #FFFFF2; border-top: none; }
+		#pmprompt th, #pmprompt td { border-top-color: #EDEDCE; }
+/*List*/
+td.folder { width: 35px !important; text-align:center; }
+td.user { width: 100px; }
+td.nums { width: 50px; text-align: center; }
+td.time { width: 120px; }
+td.selector { width: 20px; text-align: center; }
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Control Panel ~~~~ */
+.container { width: 100%; overflow: hidden; }
+	.content { float: right; width: 80%; }
+		.content .mainbox { padding-bottom: 5px; }
+		.content .footoperation, .content .mainbox thead th, .content .mainbox thead td,
+		.content .mainbox tbody th, .content .mainbox tbody td { border-top: none; border-bottom: 1px solid #CAD9EA; }
+	.side { float: left; width: 18%;}
+		.side div { background:#ccc;margin-bottom:10px; }
+			.side h2 { background:#E8F3FD; padding-left: 10px; line-height: 2.4em; font-size: 1.17em; }
+			.side ul { background:#FFFFFF none repeat scroll 0 0;border-bottom:1px solid #E4E8EB;border-left:1px solid #E4E8EB;border-right:1px solid #E4E8EB;padding:1px;}
+				.side li{ text-indent: 26px; line-height: 2.4em; }
+					.side h3 { font-weight: normal; background:url(../../images/meizu/arrow_right.gif) no-repeat 14px 46%; }
+						.side_on h3 { font-weight: bold; border: solid #CAD9EA; border-width: 1px 0; background: #E8F3FD url(../../images/meizu/arrow_down.gif) no-repeat 14px 46%; }
+					.side li ul { border-bottom: 1px solid #E8E8E8; }
+						.side li li { padding-left: 1em;}
+				.side li.current { font-weight: bold; }
+					.side li.current a { color: #666; }
+			.side li.first h3 { border-top: none; }
+			.side li.last ul { border-bottom: none; }
+	#memberinfo { }
+		#memberinfo .memberinfo_avatar { text-align: center; width: 170px; font-weight: bold; }
+			#memberinfo li label { color: #666; margin-right: 0.5em; }
+			#memberinfo .memberinfo_forum label { float: left; width: 7em; text-align: right; }
+	.mysearch { float: left; display: block; margin-top: -10px; margin-left: 10px;}
+		/* Message Tabs*/
+		.msgtabs {  background: #fff; border-bottom: 1px solid #CAD9EA; padding-bottom: 23px; padding-right: 5px; margin-top: 0.8em;}
+			.msgtabs strong { float: right; padding: 0 12px; border: 1px solid #CAD9EA; border-bottom: 1px solid #E8F3FD;  margin-right: 5px; text-decoration: none; height: 22px; line-height: 22px; font-weight: bold; background: #E8F3FD; }
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ DropMenu ~~~~ */
+
+.dropmenu { padding-right: 15px !important; background-image: url(../../images/meizu/arrow_down.gif) !important; background-position: 100% 50% !important; background-repeat: no-repeat !important; cursor: pointer; }
+.popupmenu_popup { text-align: left; line-height: 1.4em; padding: 10px; overflow: hidden; border: 1px solid #CAD9EA; background: #FFF url("../../images/meizu/portalbox_bg.gif"); background-repeat: repeat-x; background-position: 0 1px;  }
+.headermenu_popup { width: 180px; }
+	.headermenu_popup li { float: left; width: 7em; font-weight:bold; line-height: 24px; height: 24px; overflow: hidden; border-bottom: 1px solid #E8E8E8; }
+.newspecialmenu { width: 100px; }
+	.newspecialmenu li { background: url(../../images/meizu/folder_s.gif) no-repeat 3px 50%; float: left; }
+		.newspecialmenu li.poll { background-image: url(../../images/meizu/pollsmall.gif); }
+		.newspecialmenu li.trade { background-image: url(../../images/meizu/tradesmall.gif); }
+		.newspecialmenu li.reward { background-image: url(../../images/meizu/rewardsmall.gif); }
+		.newspecialmenu li.activity { background-image: url(../../images/meizu/activitysmall.gif); }
+		.newspecialmenu li.debate { background-image: url(../../images/meizu/debatesmall.gif); }
+		.newspecialmenu li.video { background-image: url(../../images/meizu/videosmall.gif); }
+		.newspecialmenu a { display: block; width: 75px; border-bottom: 1px solid #E8E8E8; padding: 5px 0 5px 25px; }
+			.newspecialmenu a:hover { text-decoration: none; color: #069; border-bottom-color: #CAD9EA; }
+#forumlist_menu, #forumjump_menu, #visited_forums_menu { padding: 10px 30px 10px 20px; }
+	#forumlist_menu dl, #forumjump_menu dl { padding: 5px 0; }
+		#forumlist_menu dt a, #forumjump_menu dt a { font-weight: bold; color: #666; }
+		#forumlist_menu dd, #forumjump_menu dd { padding-left: 1em; }
+			#forumlist_menu li.sub, #forumjump_menu li.sub { padding-left: 1em; }
+			#forumlist_menu li.current a, #forumjump_menu li.current a, #visited_forums_menu li.current a { font-weight: bold; }
+			#forumlist_menu li a, #forumjump_menu li a, #visited_forums_menu li a { font-weight: normal; color: #069; }
+.userinfopanel { border: 1px solid #CAD9EA; width: 140px; background: #FFF url("../../images/meizu/portalbox_bg.gif"); background-repeat: repeat-x; background-position: 0 0; padding: 10px; }
+	.imicons { text-align: center; border: 1px solid #E8E8E8; background: #FFF; padding: 4px 1px; }
+		.imicons img { vertical-align: middle; }
+	.userinfopanel p { text-align: left; margin: 0; }
+		.userinfopanel p a { color: #069; }
+	.userinfopanel dl { border-bottom: 1px solid #E8E8E8; margin: 5px 0; padding: 5px 0; }
+	.postauthor cite a { float: left; padding: 5px; height: 10px; overflow: hidden; }
+		.postauthor cite a.hover { border-color: #CAD9EA; background-color: #FFF; }
+	.popupmenu_popup .postauthor { width: 220px; }
+		.popupmenu_popup .postauthor a { color: #069; }
+#styleswitcher_menu { overflow: visible; }
+	#styleswitcher_menu, #styleswitcher_menu ul li, #styleswitcher_menu ul li.current a, #styleswitcher_menu ul li a { white-space: nowrap; }
+	#styleswitcher_menu ul li.current { font-weight: bold; }
+		#styleswitcher_menu ul li.current a { color: #666; }
+#styleswitcher_menu {}
+	#styleswitcher_menu li.current { font-weight: bold; }
+.tagthread { width: 360px; }
+	.tagthread .close { float: right; padding-top: 5px; }
+	.tagthread h4 { line-height: 26px; border-bottom: 1px solid #E8E8E8; }
+	.tagthread ul { padding: 5px; }
+		.tagthread li { line-height: 1.8em; }
+	.tagthread li.more { text-align: right; background: url(../../images/meizu/arrow_right.gif) no-repeat 100% 50%; padding-right: 10px; }
+.headactions .popupmenu_popup a, .headactions .popupmenu_popup strong { color: #666; background: none; white-space: nowrap; }
+	.headactions .popupmenu_popup { overflow: visible; }
+
+#threadtypesmenu_menu ul li { height: 1.4em; _line-height: 1.4em; }
+
+*+html #my_menu, *+html #memcp_menu, *+html #stats_menu, *+html #plugin_menu { margin-left: 1px; }
+* html #my_menu, * html #memcp_menu, * html #stats_menu, * html #plugin_menu { margin-left: 1px; }
+
+#my_menu {width:90px}
+#my_menu li { font-weight:normal;  }
+#forumlist_menu {width:140px}
+#threadtypesmenu_menu {width:80px}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Form Style ~~~~ */
+
+fieldset { border: none; }
+input, textarea { border-width: 1px; border-color: #DDD; padding: 2px; }
+	input[type="radio"], input[type="checkbox"] { border: none; background: none; }
+	.radio, .checkbox{ border: none; background: none; }
+	.invitecodelist input { border: none; font-family: "Courier New", Courier, monospace; font-size: 13px; cursor: pointer; }
+button { }
+#postsubmit, button.submit { padding: 0 10px;height:40px; line-height:40px; width:100px;}
+button.insmsg { margin: 1em 0; border: 1px solid #EDEDCE; background: #FFFFF2; color: #090; }
+.formbox th { width: 220px; text-align: left; }
+	.formbox th, .formbox td { padding: 5px; }
+	.formbox th, .formbox td { border-bottom: 1px solid #CAD9EA; }
+	.formbox table a { color: #069; }
+.formbox label { cursor: pointer; }
+.lighttxt, .formbox *.tips { color: #999; }
+.formbox th ul { padding: 5px 0; }
+	#threadtypes table td, #threadtypes table th { border-top: 1px solid #CAD9EA; border-bottom: 0;}
+/*Login Form*/
+#loginform * { vertical-align: middle; }
+	#loginform button { line-height: 21px; height: 21px; padding: 0 4px; margin-left: 3px; }
+/*QuickPost*/
+	#quickpost {margin-top:8px; overflow: hidden; padding-bottom: 0; border: 1px solid #DFDFDF;}
+		* html #quickpost { height: 1%; overflow: visible; }
+		#quickpost h5 { margin: 0.5em 1em; }
+		.postoptions, .postform, .smilies { float: left; }
+		.postoptions, .smilies { width: 20%; }
+			.postoptions p { margin: 2px 0.7em; }
+		.postform { width: 59%; padding-bottom: 10px; }
+			.postform p label { vertical-align: top; font-weight: bold; font-size:14.8px }
+			.postform h5 input { width: 60%; }
+			.postform p, .postform div { margin: 0 1em; }
+			.postform h4 * { vertical-align: middle; }
+				.postform h4 input { width: 60%; }
+			.postform textarea { width: 90%; height: 160px; font-size:14.8px}
+			.postform .btns { margin-top: 0.5em; line-height: 30px; color: #999; }
+				.postform .btns button { vertical-align: middle; }
+				.postform .btns a { color: #069; }
+					.postform button { cursor: pointer; }
+					.postform #postsubmit { float: left; display: inline; margin-left: 2.3em;height:40px}
+					.btns em { color: #999; }
+		#smilieslist { border: 1px solid #E8E8E8; overflow: hidden; text-align: center; }
+			#quickpost #smilieslist { margin: 6px 1em 0 ; }
+			#quickpost h4 { border-bottom: 1px solid #E8E8E8;}
+			#smilieslist td { border: none; padding: 8px 0; cursor: pointer; }
+				#smilieslist td:hover { background: #E8E8E8; }
+			#smilieslist .pages { float: none; border-width: 1px 0 0; }
+			#smilieslist h4 { color: #069; padding: 5px; line-height: 20px; background: #F7F7F7; border-bottom: 1px solid #E8E8E8; text-align: left; }
+				#smilieslist .popupmenu_popup { overflow: visible; padding: 5px 10px; white-space: nowrap; }
+					#smilieslist .popupmenu_popup a { color: #069; }
+/*Ajax Form*/
+.ajaxform {}
+	.ajaxform th, .ajaxform td { border-bottom: 1px solid #E8E8E8; padding: 5px; }
+		.ajaxform thead th { font-weight: bold; }
+	.ajaxform a { color: #069; }
+.btns th, .btns td { border: none !important; }
+
+#ajaxwaitid { position: absolute; display: none; z-index: 100; width: 100px; height: 1.6em; top: 0px; right: 0px; line-height: 1.6em; overflow: hidden; background: #dd0000; color: #ffffff;}
+.postform .special, #postform .special { font-weight: bold; color: #069;}
+#newpost em { color: #999 }
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Advertisments ~~~~ */
+
+#ad_headerbanner { float: right; margin-top: 15px; }
+.ad_text { border: 1px solid #CAD9EA; margin-bottom: 10px; padding: 6px; background: #FFF url("../../images/meizu/portalbox_bg.gif"); background-repeat: repeat-x; }
+.ad_text table { width: 100%; border-collapse: collapse; }
+	.ad_text td { background-repeat: repeat-x; background-position: 0 0; padding: 2px 10px; }.ad_textlink1 { float: left; white-space: nowrap; }
+.ad_textlink2 { margin: 10px; }
+.ad_textlink1,.ad_textlink2 { padding-left: 25px; background: url(../../images/meizu/ad_icon.gif) no-repeat 0 50%; }
+.ad_pip { clear: right; float: right; display: inline; margin: 10px 10px 10px; }
+.ad_topicrelated { clear: both; float: right; display: inline; margin: 0 10px 10px; padding: 10px 10px 10px 30px; border: 1px solid #78A73D; background: #CAEEC0; }
+.ad_column { text-align: center; margin-bottom: 10px; }
+.ad_footerbanner { text-align: center; clear: both; margin: 5px }
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Side list ~~~~ */
+#infoside { float:left;}
+	#infoside a { color: #333; }
+	#infoside .box { overflow: hidden; }
+	#infoside .box h4 { border-bottom: 1px solid #F6FCFF}
+		.textinfolist, .imginfolist { margin: 5px; }
+			.textinfolist li  { list-style: none; height: 1.8em; line-height: 1.8em; overflow: hidden; }
+				#infoside .textinfolist li em a { color: #999; margin-right: 4px; }
+		.imginfolist { overflow: hidden; *height: 1%; }
+			.imginfolist li { float: left; list-style: none; width: 56px; margin: 0 2px 8px 0; }
+			.imginfolist li a { padding: 1px; display: block; border: 1px solid #9DB3C5; }
+			.imginfolist li p { text-align: center; height: 20px; color: #666; overflow: hidden; }
+			.imginfolist li p a { border: none; }
+
+#infosidemain { float: left; }
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ User useravata ~~~~ */
+.avataonline { float: left; height: 57px; line-height: 57px;padding-left: 28px;background:url(../../images/meizu/avataonline_bg.jpg) no-repeat 0 4px}
+#viewpro_menu { margin: 10px auto auto -30px; text-align: center; }
+	#viewpro_menu img { height:48px; width: 48px; margin: 2px auto; }
+	#viewpro_menu li { text-align: left; }
+.userinfolist { float: left; }
+li.popavatar { text-align: center !important; }
+li.popuser { text-indent: 20px; padding: 4px; background: url(../../images/meizu/usericon.gif) no-repeat 0 50%; white-space: nowrap; width: 100% !important; width: auto; }
+li.poplink { text-indent: 20px; padding: 4px; background: url(../../images/meizu/homelink.gif) no-repeat 0 50%; color: #999; white-space: nowrap; width: 100% !important; width: auto; }
+.announcements { border-bottom: 2px solid #E8F3FD;}
+	.announcementinfo  { cursor: pointer; color: #999; text-align: right; padding-right: 16px; height: 30px; line-height: 30px; background: #F5FAFE; border-bottom: 1px solid #CAD9EA; }
+		.ondisplay { cursor: default; background: #E8F3FD; }
+		.announcementinfo:hover { background: #E8F3FD; }
+		.announcementinfo span { float: left; font-weight: 700; height: 30px; line-height: 30px; margin-left: 16px; color: #000; }
+		.announcementmessage { padding: 10px; border-bottom: 1px solid #CAD9EA; }
+
+/*
+Default Style for Discuz!(R)
+URL: http://www.discuz.net
+(C) 2001-2007 Comsenz Inc.
+<style type="text/css">
+*/
+
+.clear {clear:both}
+.sidebox {background:#F6FCFF;}
+.sidebox h4 {background:url("../../images/meizu2010/bbs_bg_2010.png") no-repeat scroll -145px -216px transparent;height:33px;line-height:33px;padding-left:10px;border-bottom: 1px solid #D8D9DD;}
+.sidebox h4 span { float:right;margin-right:8px }
+.sidebox h4 span a {color:#2B8ECF; font-size:12.8px;font-weight:normal}
+.mzlist {background:#fff;padding:5px 15px;border-left: 1px solid #D8D9DD;border-right: 1px solid #D8D9DD;}
+.mzlist li {background:transparent url(../../images/newstyle/infoside_li_bg.jpg) no-repeat scroll left 10px;height:2em;line-height:2em;list-style-image:none;list-style-position:outside;list-style-type:none;overflow:hidden;padding-left:12px;}
+.mzcomment li {list-style:none;padding:10px 0; border-top: 1px dotted #CCCCCC;}
+
+.mzauthor{font-size:12px;border-top:1px solid #DADDE3;padding-top:5px}
+.mzmessage {padding:8px 0;color:#006699;}
+.mzmark{padding:3px;font-size:12px;background:#ECF3F9;}
+.mzmark a{text-decoration:underline;}
+.mzpublishtime{float:right;font-size:10px}
+
+#mzmoded {background: none repeat scroll 0 0 #FBFBFB; padding-left:16px;height: 50px; line-height: 50px;border-left: 1px solid #DFDFDF;border-right: 1px solid #DFDFDF;}
+#mzmoded a{font-weight:normal;font-size:12.8px;}
+#mzlogin { width:450px; height: 40px; line-height: 40px;}
+#mzlogin a{font-size:12.8px;}
+
+#mz_btn { height:33px; width:165px; float:right; }
+#mzlogin_btn {border: 0; width:77px; height:30px; margin-left:5px; background:url(../../images/meizu2010/bbs_bg_2010.png) -145px -175px no-repeat;cursor: pointer; vertical-align: middle;}
+#mzreg_btn { border: 0;  width:77px; height:30px; margin-left:3px; background:url(../../images/meizu2010/bbs_bg_2010.png) -230px -175px no-repeat;cursor: pointer; vertical-align: middle;}
+
+
+.mz_remark_post{padding-right:20px;}
+.mz_round_bottom {margin-bottom:5px;background:url("../../images/meizu2010/bbs_bg_2010.png") no-repeat -145px -259px transparent;height:5px;overflow:hidden;}
+.mz_round_bottom_a {background:#fff url(../../images/meizu/meizu_all_bg.jpg) repeat-x right -91px;height:5px;overflow:hidden;}
+.mz_round_bottom_L {height:5px;overflow:hidden;}
+.mz_round_bottom_L_a {margin-right:15px;background:#E4E8EB url(../../images/meizu/meizu_all_bg.jpg) repeat-x left -91px;height:5px;overflow:hidden;}
+.mzborder {background:#FFFFFF;border-left:1px solid #E4E8EB;border-right:1px solid #E4E8EB;}
+.mztabs {margin-bottom: 0px;border-left:1px solid #E4E8EB;border-right:1px solid #E4E8EB;}
+
+#mzsearch{text-align:center;background:#FFFFFF;border-left:1px solid #E4E8EB;border-right:1px solid #E4E8EB;padding:5px; }
+.mzsearchinputbg{background:#fff url(../../images/meizu/meizu_all_bg.jpg) left -129px;height:22px;line-height:22px;width:110px;padding:3px;padding:8px!important;overflow:hidden}
+#mzsearchinput {border:0 none;width:97%;padding-top:3px}
+
+.isearch{ padding-left:15px; height:52px;border-left:1px solid #E4E8EB;overflow:hidden;}
+.isearch li{ float:left; padding:0px; margin:0px; height:31px; border:0px;list-style:none }
+.isearch dl{padding:0px; margin:0px; clear:both;}
+
+.csinputbg{ width:75%;background:url(../../images/meizu/public_input.gif) no-repeat; background-position:0 1px; float:left;line-height:31px;}
+.cssubmit,.csinputbg{ overflow:hidden; padding:0px; margin:0px;}
+.isearch .sinput{ width:100px; border:0px; line-height:15px;padding-top:0px; height:15px; margin-top:6px; margin-left:7px;}
+.isearch .cssubmit{ padding:0px;}
+.mzlogininput {color:#666666;background:transparent url(../../images/meizu/mz_login_input.gif) no-repeat;border:0;height:20px;line-height:20px; padding:5px 7px;width:120px;vertical-align: middle;}
+
+
+.mzcite{background:url(../../images/meizu2010/bbs_merge5.png) -19px -32px no-repeat;line-height:24px;font-weight:bold;width:181px; height:30px;padding-left: 20px;padding-right: 5px;width: 156px; overflow:hidden;}
+.mzcite label {float:right}
+.todayfolder{background: transparent url(../../images/meizu/forum_new.gif) no-repeat center center; width:53px;height:53px}
+.todaynum{color:#FF6600;display:block;font-weight:bold;padding-top:24px;}
+
+.mzprofile tbody td {border:0;}
+#mzmenu {padding-left:20px;}
+#mzmenu li {list-style:none;margin-top:10px;width:162px;text-align:center;background:url(../../images/meizu/mzprofile_menubg.jpg) no-repeat left bottom;}
+#mzmenu .select{background-position:0 0;}
+#mzmenu li a {height:42px;display:block;line-height:42px;width:142px;font-size:14.8px;}
+
+.productlist{text-align:center;float:left;width:240px;height:200px}
+
+
+/* 2010/5/28 add left menu */
+	#meizu_menu_warp{width:224px;float:right;}
+	#meizu_menu{ position:relative;min-width:150px;margin-bottom:0px;}
+	#meizu_menu #meizu_forumlist {padding-left:0px; }
+	#meizu_menu #meizu_forumlist dl { padding-top:0px;}
+	#meizu_menu #meizu_forumlist dt { background:url("bbs_bg_2010.png") no-repeat -145px -216px transparent;  }
+	#meizu_menu #meizu_forumlist dt a {padding-left:10px; text-decoration:none; display:block;height:33px;line-height:33px;}
+	#meizu_menu #meizu_forumlist dd { }
+	#meizu_menu #meizu_forumlist dd ul {background:#fff;border-left:1px solid #b9c0ca; border-right:1px solid #b9c0ca; border-bottom:0px solid #b9c0ca;}
+	#meizu_menu #meizu_forumlist dd li { list-style:none;border-bottom:1px solid #E8E8E8;margin-bottom:-1px;}
+	#meizu_menu #meizu_forumlist dd li a{ padding-left:20px;text-decoration:none; color:#006699;height:34px;line-height:34px;}
+	#meizu_menu #meizu_forumlist dd .current{background:#E8F3FD;}
+	#meizu_side_rigth{float:left;width:727px;}
+	#meizu_menu .catlistbottom {overflow: hidden; height: 5px; margin-bottom:5px; background:url("bbs_bg_2010.png") no-repeat -145px -259px transparent; }
+
+/* left menu end*/
+#meizu_menu #meizu_forumlist dd li a span {color:#666666}
+.mz_menu_down { float:right;width:30px;padding-left:12px;height:30px;line-height:30px;background:url("../../images/meizu/mz_menu_point.gif") no-repeat left -60px; color:#049204;overflow:hidden }
+.mz_menu_up { float:right;width:30px;padding-left:12px;height:30px;line-height:30px;background:url("../../images/meizu/mz_menu_point.gif") no-repeat left -32px; color:red;overflow:hidden  }
+.mz_menu_constant { float:right;width:30px;padding-left:12px;height:30px;line-height:30px;background:url("../../images/meizu/mz_menu_point.gif") no-repeat left top;overflow:hidden;display:block;z-index:999 }
+
+
+/* autocomplete */
+	.ac_results {padding: 0px;border: 1px solid #999;background-color: white;overflow: hidden;z-index: 99999;}
+	.ac_results ul {width: 100%;list-style-position: outside;list-style: none;padding: 0;margin: 0;}
+	.ac_results li { margin: 0px; padding: 2px 5px; cursor: default;display: block;font: menu;font-size: 12px;line-height: 16px;overflow: hidden;}
+	.ac_loading {background: white url('../../images/meizu/indicator.gif') right center no-repeat;}
+	.ac_odd {background-color: #eee;}
+	.ac_over {background-color: #0A246A;color: white;}
+	.green a{color:#419f41}
+/* autocomplete end */
+
+#mzevaluate {margin:0 0 20px 0;background: url('../../images/meizu/evaluatebg.gif') left center no-repeat;height:115px;width:740px;color:#666;}
+#mzevaluate  p {line-height:23px;height:23px}
+#appinfo{float:left;padding-top:15px;width:230px;}
+#appinfo p{overflow:hidden;width:120px;}
+#appdescript{float:right;padding-top:15px;padding-right:10px;width:500px}
+
+.appinfo_b {font-size:14px;font-weight:bold; color:#000}
+.appinfo_b a{color:#000}
+.appinfo_img {padding:0 10px; float:left;width:70px;height:100px}
+.appinfo_img img {width:70px;height:70px}
+.appinfo_price{width:44px; color:white; display:block;text-align:center;background: url('../../images/meizu/pricebg.png') left center no-repeat;font-size:12px;}
+
+
+.post-hot-comment {padding:10px 20px 0 30px; background:#F6FCFF;border-top: 1px solid #E8E8E8; }
+.post-hot-comment h4 {padding:5px 0px; font-size:14.8px;color: #6DB9EB;}
+.mzcomment {background:#F6FCFF;padding:5px 0px 10px;}
+
+#forumrules { background:#fff; padding:10px 16px;border: 1px solid #DFDFDF; border-bottom:0 }
+#calendar { background:#FAFAFA;border: 1px solid #CCCCCC;}
+#calendar_year .col {background:#FAFAFA; border: 1px solid #CCCCCC; }
+#calendar_month {background:#FAFAFA;border: 1px solid #DDDDDD;}
+
+#threadfilter { padding:0px 16px; background: url("../../images/meizu2010/threadfilter_bg.jpg") repeat-x #F3F3F3; color: #4F4F4F; height: 42px;line-height: 42px;border-left: 1px solid #DFDFDF; border-right: 1px solid #DFDFDF;}
+#threadfilter .mzfilter { float: left;}
+#threadfilter form { margin-top:10px;float:right; height:22px; line-height:22px;}
+#threadfilter form select { vertical-align:middle;position: relative;top: -3px;  }
+
+.mzfilter {}
+.mzfilter strong {color: #006699; font-weight: bold; margin-right: 10px;}
+.mzfilter a {color: #4F4F4F;font-size: 13.8px; margin-right: 10px;}
+
+
+.mzop {padding-left:15px; height:35px; line-height:35px; background: #FFFFF2; border: 1px solid #DFDFDF; border-bottom: 0;}
+.mzop h2 { padding-left:15px; color:#333333 }
+.mzop span { float:right;margin-right:3px }
+.mzop span a { padding-right:8px }
+
+.threadlist { border-top: 1px solid #ccc;border-bottom: 1px solid #CCCCCC;}
+.category {height:40px}
+.mzforumsub { background:#fff; border: 1px solid #E4E8EB }
+.mzdn_level{background:url("../../images/meizu/expend_bg.gif") no-repeat;display:block;font-size:10px;height:17px;padding-left:8px;padding-top:7px;float:left;width:16px;}
+#meizu_activity { margin-bottom:6px }
+.postmessage img {max-width:700px}
+
+.x_link { color: #0098F3;padding: 0 3px; }
+.bbs_left1  .pages {padding-bottom:15px;}
+.bbs_left1  .pages em {width: 50px;}

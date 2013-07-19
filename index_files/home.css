@@ -1,0 +1,108 @@
+.wrap{width:958px;}
+#Mheader .h {width:958px;}
+#footer {margin:auto;width:958px;border-top:0;}
+#infosidemain {float:left;width:730px;}
+#infoside { width:224px }
+
+.mainbox {margin-bottom:0}
+#meizu_menu {margin-bottom:0}
+
+#mh_side_left { float:left; width:224px; overflow:hidden;}
+#mh_side_right {float:left;width:495px;margin-left:7px;}
+
+
+/* flash ad  start -----------------------*/
+	#flashad {border:1px solid #dfdfdf;}
+	#play { height:190px;overflow:hidden;margin:auto;}
+	#play_text { float:left; height:20px; margin-top:-5px; width:217px; }
+	#play_text ul { display:block; right:-10px; list-style-type:none; margin-top:-22px; opacity:0.6; padding-top:1px; position:relative; width:200px; z-index:3; }
+	#play_text ul li { background-color:#FFFFFF; border:1px solid #CECECE; color:#333; cursor:pointer; display:block; float:left; font-family:"Arial"; font-size:9px; height:15px; margin:2px; padding-top:3px; text-align:center; width:15px; }
+	#play_list a { display:block; overflow:hidden; }
+	#play_list img {}
+	
+	#control_size { position:relative;float:left;overflow:hidden; color:#333; border:0; font-family:Tahoma, Geneva, sans-serif,"ËÎÌå"}
+	.flashNews  a{ color:#FFFFFF; text-decoration:none;}
+	.flashNews  a:hover{ color:#006699;}
+	.flashNews img{ border:0;padding:1px;width:220px;height:188px}
+	.flashNews .bg {width:100%; height:60px; background:#000; filter:alpha(opacity=60); -moz-opacity:0.6; opacity:0.6; position:absolute; bottom:0}
+	.flashNews h3 { position:absolute; z-index:10; padding:5px 5px 0 8px; font-size:14px;text-align:left;}
+	.flashNews h3 p { padding-top:5px;font-weight:normal; font-size:12px;text-align:left;}
+	.flashNews .t_s{ height:25px; position:absolute; width:222px; bottom:0px; left:0}
+	.flashNews #SwitchNav { position:absolute; right:2px; bottom:2px;  z-index:2;}
+	.flashNews ul,li{ margin:0; padding:0}
+	.flashNews ul li {float:left;width:15px;height:18px;line-height:18px;text-align:center;margin-left:1px;background:#333; list-style:none;}
+	.flashNews ul li a {display:block;width:15px;height:18px;font-size:11px;font-family:Tahoma;color:#FFFFFF;}
+	.flashNews ul li a:hover, .flashNews ul li a.sel {color:#006699;}
+	
+/* flash ad  end -----------------------*/
+
+/* --------------- ÐÂµê --------------- */
+	#newshop {}
+	#newshop h3 { padding-left:10px; height:38px; line-height:36px; background:url('../../images/meizu2010/bbs_bg_2010.png')  no-repeat -389px -216px;}
+	#newshop h3 span { float:right; margin-right:8px;line-height:36px;}
+	#newshop h3 span a{ font-size:12.8px; font-weight:normal;color:#2B8ECF}
+	#newshop ul { background:#fff; border-left: 1px solid #dadbdf; border-right: 1px solid #dadbdf;}
+	#newshop li{ padding:2px 10px 3px 10px; list-style:none;}
+	#newshop img{ margin-top:5px; width:184px;height:92px }
+	#newshop p{ text-align:center;padding:3px 0 }
+	#newshop p a { color:#2B8ECF }
+	#newsshop_bottom{background:url('../../images/meizu2010/bbs_bg_2010.png') -145px -269px no-repeat; height:3px; overflow:hidden;}
+/* --------------- ÐÂµê end --------------- */
+
+/* --------------- Èí¼þ --------------- */
+	#hotapp { margin-top:0px;}
+	#hotapp h3 { padding-left:10px; height:38px; line-height:36px; background:url('../../images/meizu2010/bbs_bg_2010.png')  no-repeat -389px -216px;}
+	#hotapp h3 span { float:right; margin-right:8px;line-height:36px;}
+	#hotapp h3 span a{ font-size:12.8px; font-weight:normal;color:#2B8ECF}
+	#hotapp ul { background:#e1e1e1; border-left: 1px solid #dadbdf; border-right: 1px solid #dadbdf;}
+	#hotapp li{ padding:10px 10px 5px 10px; list-style:none;height:60px}
+	#hotapp .appico {float:left;overflow:hidden;width:70px;height: 60px;text-align: center;}
+	#hotapp .appico img{ width:60px; height:60px;}
+	#hotapp .appName {height: 25px; line-height:25px; overflow: hidden;font-weight: bold;}
+	#hotapp .appauthor{height: 25px; line-height:25px; overflow: hidden;}
+	#hotapp .x_sep1{background:url('../../images/meizu2010/bbs_bg_2010.png') no-repeat -390px -269px; overflow:hidden;height:3px;padding: 0;margin: 0 3px;}
+	#hotapp_bottom { background:url('../../images/meizu2010/bbs_bg_2010.png') no-repeat -389px -260px; height:3px; overflow:hidden; width:224px; margin-bottom:5px;}
+/* --------------- Èí¼þ end --------------- */
+
+
+
+.mz_home_middle_head { background:url('../../images/meizu2010/bbs_bg_2010.png') no-repeat -470px -103px; height:3px; width:495px; overflow:hidden; }
+.mz_home_middle_bottom { background:url('../../images/meizu2010/bbs_bg_2010.png') no-repeat -470px -109px; height:3px; width:495px; overflow:hidden; }
+
+#mz_home_middle{ padding:6px 10px; background-color:#FFFFFF; border-left:1px solid #dfdfdf; border-right:1px solid #dfdfdf;}
+#mz_home_middle h2 {text-align:left;border-bottom: 1px solid #E1DDDD;height: 30px;line-height: 26px;}
+#mz_home_middle h2 a { color:#333333 }
+#mz_home_middle h3 {text-align:left;border-top: 1px solid #E1DDDD;height: 30px;line-height: 30px; color:#000;  margin-top:5px}
+#mz_home_middle p { color:#a0a0a0 }
+#mz_home_middle .x_action{ height:90px;overflow:hidden; margin-top: 5px; }
+#mz_home_middle .x_action img{}
+.x_action .x_left{float:left; width:100px;}
+.x_action .x_right {display: block;float:right;height: 95px;overflow: hidden;width: 365px;}
+.x_action .x_right h1 { height:28px;line-height:28px; overflow: hidden; }
+.x_action .x_right h1 a { color:#2B8ECF }
+.x_action .x_right .x_content{line-height:22px;  color:#999;}
+
+/* --------------- title list --------------- */
+.mzlist { border:0; padding: 5px;}
+.mzlist li { height:25px; line-height:25px;}
+.mzlist .mz_li_l {display:block; width:390px; float:left;overflow: hidden;}
+.mzlist .mz_li_l a {color:#333}
+.mzlist .mz_li_r {float:right;overflow: hidden; text-align: right; width: 60px;}
+.mzlist .mz_li_r a {color:#c4c4c4}
+
+
+/* --------------- ÷ÈÓÑÐã --------------- */
+	#mshow { background:url("../../images/meizu2010/bbs_bg_2010.png") 0 -405px no-repeat; width:958px; height:204px; margin-top:8px;}
+	#mshow h2{ margin:5px 15px; padding-top:5px;line-height: 30px;color:#525252;font-size: 13.8px; }
+	#mshow .x_title{ font-size:13px; font-weight:bold; line-height:38px; padding-left:16px;}
+
+	#mshow ul{padding: 10px 0 0 9px;}
+	#mshow li{float:left; width:156px; text-align:center;list-style: none outside none;}
+	#mshow li .mshow_pic { background:url("../../images/meizu2010/bbs_bg_2010.png") no-repeat scroll -315px -104px transparent; height: 110px; padding-top: 2px; }
+	#mshow li .mshow_pic img{width:126px; height:96px}
+	#mshow li p{height: 35px;line-height: 35px;overflow: hidden;text-align: center;width: 156px;}
+	#mshow li p a {color: #2B8ECF}
+/* --------------- ÷ÈÓÑÐã end --------------- */
+
+#forumlinks {background:url("../../images/meizu2010/bbs_bg_2010.png") 0 -619px no-repeat; height:60px; line-height:58px; margin-top:8px; padding-left:90px}
+#forumlinks a {padding:0 8px}
